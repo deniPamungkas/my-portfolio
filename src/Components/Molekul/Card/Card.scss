@@ -1,0 +1,22 @@
+$primary : #3CAEA3;
+$secondary : #F6D55C;
+$font:#3f5250;
+.card{
+    width: 120px;
+    height: 120px;
+    background-color: teal;
+    padding-top: 30px;
+    line-height: 5px;
+    border-radius: 10px;
+
+    h5{
+        color: white;
+    }
+    h6{
+        color: $font;
+    }
+
+    div{
+        margin-bottom: 40px;
+    }
+}

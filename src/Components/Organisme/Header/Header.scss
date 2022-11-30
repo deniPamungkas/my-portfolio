@@ -1,0 +1,105 @@
+$primary : #3CAEA3;
+$secondary : #F6D55C;
+$font:#3f5250;
+.header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin-top: -25px;
+    .name{
+        color: $secondary;
+        line-height: 15px;
+        cursor: cell;
+        padding: 20px 0;
+    }
+    .btn-desc{
+        margin: auto;
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .desc{
+        margin-top: 50px;
+        height: 400px;
+        width: 100%;
+        padding: 0 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .socMed{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding-bottom: 30px;
+            flex: 1;
+            height: 100%;
+            color: $secondary;
+            .items{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                height: 120px;
+                .item{
+                    cursor: pointer;
+                }
+                span{
+                    font-weight: 600;
+                }
+            }
+        }
+        .picture{
+            flex: 4;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            .pict{
+                height: 100%;
+                width: 300px;
+                border-top-right-radius: 150px;
+                border-top-left-radius: 150px;
+                background-color: $secondary;
+            }
+        }
+        .scroll{
+            flex: 1;
+            height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            div{
+                transform: rotate(90deg);
+                width: fit-content;
+                margin-bottom: 70px;
+                color: $secondary;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        .desc{
+            .socMed, .scroll{
+                display: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    .header{
+        .desc{
+            .picture{
+                .pict{
+                    width: 260px;
+                }
+            }
+        }
+    }
+}
