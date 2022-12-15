@@ -1,19 +1,22 @@
 $primary: #3caea3;
 $secondary: #f6d55c;
 $font:#3f5250;
-button {
-  padding: 8px 15px;
+
+button{
   outline: none;
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: 500;
   &:hover {
     cursor: pointer;
   }
 }
+.lg {
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
 .primer {
-  border-top: none;
-  border-bottom: none;
+  border-top: 2px solid $primary;
+  border-bottom: 2px solid $primary;
   border-right: 3px solid $secondary;
   border-left: 3px solid $secondary;
   background-color: $primary;
@@ -27,4 +30,10 @@ button {
     background-color: $primary;
     color: $secondary;
   }
+}
+.sm{
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 500;
 }

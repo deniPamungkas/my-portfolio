@@ -7,7 +7,7 @@ import './Header.scss'
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className='header' id='header'>
         <section className="name">
             <h6>Hello, i am</h6>
             <h1>Deni Pamungkas</h1>
@@ -15,8 +15,8 @@ const Header = () => {
         </section>
         <br/>
         <section className="btn-desc">
-            <Button className='primer'>Download CV</Button>
-            <Button className='second'>Let's Talk</Button>
+            <Button className='primer lg'>Download CV</Button>
+            <Button className='second lg'>Let's Talk</Button>
         </section>
         <section className='desc'>
             <div className='socMed'>
