@@ -1,5 +1,5 @@
 import './App.scss';
-import { About, Contact, Experience, Header, Nav, Portfolio } from './Components/AllComp';
+import { About, Contact, Experience, Footer, Header, Nav, Portfolio } from './Components/AllComp';
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
       <Portfolio/>
       <br/><br/>
       <Contact/>
+      <br/><br/><br/>
+      <Footer/>
     </div>
   );
 }

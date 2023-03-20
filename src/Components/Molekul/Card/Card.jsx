@@ -8,8 +8,8 @@ const Card = (props) => {
         {" "}
         {props.icon}{" "}
       </div>
-      <h5>{`Experience`}</h5>
-      <h6>2+ Years Working</h6>
+      <h5>{props.ket1}</h5>
+      <h6>{props.ket2}</h6>
     </div>
   );
 };

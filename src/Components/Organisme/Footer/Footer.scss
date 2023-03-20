@@ -1,0 +1,23 @@
+$primary: #3caea3;
+$secondary: #f6d55c;
+$font: #3f5250;
+
+.footer{
+    padding: 20px 13vw 80px 13vw;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    background-color: $secondary;
+    color: $primary;
+    .item{
+        margin: 0 5px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .footer{
+        .desc{
+            font-size: 13px;
+        }
+    }
+}

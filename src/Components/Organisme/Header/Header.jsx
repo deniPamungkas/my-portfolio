@@ -3,6 +3,7 @@ import { Button } from '../../AllComp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './Header.scss'
 
 const Header = () => {
@@ -24,6 +25,7 @@ const Header = () => {
                 <GitHubIcon className='item'/>
                 <FacebookIcon className='item'/>
                 <InstagramIcon className='item'/>
+                <LinkedInIcon className='item'/>
                 <span>|</span>
                 </div>
             </div>

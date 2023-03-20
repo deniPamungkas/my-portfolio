@@ -14,7 +14,7 @@ const Nav = () => {
             <li className={`nav-item ${''}`}><a href='#about'><PersonOutlineOutlinedIcon/></a></li>
             <li className={`nav-item ${''}`}><a href='#experience'><AssignmentOutlinedIcon/></a></li>
             <li className={`nav-item ${''}`}><a href='#portfolio'><TaskAltOutlinedIcon/></a></li>
-            <li className={`nav-item ${''}`}><SendOutlinedIcon/></li>
+            <li className={`nav-item ${''}`}><a href='#contact'><SendOutlinedIcon/></a></li>
         </div>
     </nav>
   )

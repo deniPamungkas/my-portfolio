@@ -7,5 +7,6 @@ import Card from './Molekul/Card/Card';
 import Experience from './Organisme/Experience/Experience';
 import Portfolio from './Organisme/Portfolio/Portfolio';
 import Contact from './Organisme/Contact/Contact';
+import Footer from './Organisme/Footer/Footer';
 
-export {Nav, Header, Button, About, Experience, Portfolio, Card2, Card, Contact}
+export {Nav, Header, Button, About, Experience, Portfolio, Card2, Card, Contact, Footer}
