@@ -1,5 +1,6 @@
 import React from "react";
 import { Card2 } from "../../AllComp";
+import {data} from "../../../API/API.js"
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -12,13 +13,13 @@ const Portfolio = () => {
       <br />
       <section className="content">
         <div className="wrap-card">
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
+          {
+            data?.map((res)=>{
+              return(
+                <Card2 data={res}/>
+              )
+            })
+          }
         </div>
       </section>
     </main>

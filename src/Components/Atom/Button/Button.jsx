@@ -3,7 +3,7 @@ import './Button.scss'
 
 const Button = (props) => {
   return (
-    <button className={props.className}>
+    <button className={props.className} onClick={(e)=>{e.preventDefault();window.open(props.github)}}>
         {props.children}
     </button>
   )

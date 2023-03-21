@@ -2,15 +2,15 @@ import React from 'react'
 import './Card2.scss'
 import { Button } from '../../AllComp'
 
-const Card2 = () => {
+const Card2 = ({data}) => {
   return (
     <div className='card2'>
         <div className='thumb'>
             <img src="" alt="" />
         </div>
-        <div className='meta'>Weather App with humidity</div>
+        <div className='meta'>{data.judul}</div>
         <div className='btn'>
-            <Button className='primer sm'>Github</Button>
+            <Button className='primer sm' github={data.github}>Github</Button>
             <Button className='second sm'>Live Demo</Button>
         </div>
     </div>
