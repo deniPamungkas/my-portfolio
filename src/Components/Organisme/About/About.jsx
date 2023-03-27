@@ -6,6 +6,7 @@ import CreateNewFolderIcon from "@mui/icons-material/CreateNewFolder";
 import { Button, Card } from "../../AllComp";
 
 const About = () => {
+
   return (
     <main className="about" id="about">
       <section className="name">
@@ -30,7 +31,9 @@ const About = () => {
             voluptatibus totam?
           </div>
           <div className="bottom">
+            <a href="#contact">
             <Button className='second sm'>Let's Talk</Button>
+            </a>
           </div>
         </div>
       </section>

@@ -1,12 +1,15 @@
-import React from 'react'
-import './Button.scss'
+import React from "react";
+import "./Button.scss";
 
 const Button = (props) => {
   return (
-    <button className={props.className} onClick={(e)=>{e.preventDefault();window.open(props.github)}}>
-        {props.children}
+    <button
+      className={props.className}
+      onClick={props.onClick}
+    >
+      {props.children}
     </button>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

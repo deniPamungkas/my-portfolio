@@ -10,7 +10,7 @@ const Card2 = ({data}) => {
         </div>
         <div className='meta'>{data.judul}</div>
         <div className='btn'>
-            <Button className='primer sm' github={data.github}>Github</Button>
+            <Button className='primer sm' onClick = {()=>{window.open(data.github)}}>Github</Button>
             <Button className='second sm'>Live Demo</Button>
         </div>
     </div>
