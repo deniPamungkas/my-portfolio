@@ -24,5 +24,10 @@ export const data = [
         deskripsi:"Aplikasi web tiruan Youtube",
         gambar:"",
         github:"https://github.com/deniPamungkas/Youtube-Clone-app"
+    },{
+        judul:"Weather App 2.0",
+        deskripsi:"Aplikasi web perkiraan cuaca menggunakan Weather-API dengan fitur tambahan",
+        gambar:"",
+        github:"https://github.com/deniPamungkas/Weather-app-2.0"
     }
 ]
