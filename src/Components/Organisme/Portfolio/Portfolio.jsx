@@ -14,9 +14,9 @@ const Portfolio = () => {
       <section className="content">
         <div className="wrap-card">
           {
-            data?.map((res)=>{
+            data?.map((res,index)=>{
               return(
-                <Card2 data={res}/>
+                <Card2 key={index} data={res}/>
               )
             })
           }

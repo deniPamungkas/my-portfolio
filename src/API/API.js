@@ -29,5 +29,15 @@ export const data = [
         deskripsi:"Aplikasi web perkiraan cuaca menggunakan Weather-API dengan fitur tambahan",
         gambar:"",
         github:"https://github.com/deniPamungkas/Weather-app-2.0"
+    },{
+        judul:"Responsive Todo-List App",
+        deskripsi:"Aplikasi pembuat todo-list dengan fitur responsive design",
+        gambar:"",
+        github:"https://github.com/deniPamungkas/todo-list"
+    },{
+        judul:"Responsive News App",
+        deskripsi:"Aplikasi web responsive baca berita menggunakan Microsoft News API",
+        gambar:"",
+        github:"https://github.com/deniPamungkas/news-app"
     }
 ]

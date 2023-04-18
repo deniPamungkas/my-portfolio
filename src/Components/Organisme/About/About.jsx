@@ -21,8 +21,8 @@ const About = () => {
         <div className="content">
           <div className="top">
             <Card icon={<WorkspacePremiumIcon />} ket1='Experience' ket2='2+ Years Working' />
-            <Card icon={<PeopleAltIcon />} ket1='Client' ket2='10+ Clients'/>
-            <Card icon={<CreateNewFolderIcon/>} ket1='Projects' ket2='10+ Projects'/>
+            <Card icon={<PeopleAltIcon />} ket1='Client' ket2='100+ Clients'/>
+            <Card icon={<CreateNewFolderIcon/>} ket1='Projects' ket2='100+ Projects'/>
           </div>
           <div className="middle">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam
